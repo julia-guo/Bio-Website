@@ -79,17 +79,34 @@
 				-webkit-transition:all 0.5s ease;
 			}
 
-			.annelida{
+			.pig{
 				position:absolute;
 				height:100%;
-				background:#fff;
-				color:#888;
+				background:#87D37C;
+				color:#3A539B;
 				width:50%;
-				border:1px solid #fff;
+				border:1px solid #87D37C;
 				padding:20px;
 				box-sizing:border-box;
 				top:100%;
 				margin-left:50%;
+				font-size:42px;
+				font-family:Quicksand;
+				transition:all 0.5s ease;
+				-webkit-transition:all 0.5s ease;
+			}
+
+			#frog{
+				position:absolute;
+				height:100%;
+				color:#888;
+				background:#fff;
+				width:100%;
+				border:1px solid #fff;
+				padding:20px;
+				box-sizing:border-box;
+				top:200%;
+				margin-left:0px;
 				font-size:42px;
 				font-family:Quicksand;
 				transition:all 0.5s ease;
@@ -106,17 +123,23 @@
 				z-index:9;
 			}
 
-			.next{
+			.next, .next1{
 				position:absolute;
 				bottom:0px;
 				width:100%;
+				padding:20px;
+				box-sizing:border-box;
 				text-align:center;
 				font-size:100px;
 				z-index:9;
 				color:#555;
 			}
 
-			.next a{
+			.next1{
+				bottom:-100%;
+			}
+
+			a{
 				font-family:quicksand;
 				color:#555;
 				text-decoration:none;
@@ -124,21 +147,33 @@
 				-webkit-transition:all 0.5s ease;
 			}
 
-			.next a:hover{
+			a:hover{
 				color:#3A539B;
 			}
+
+			.next1 a{
+				color:#fff;
+			}
+
+			.next1 a:hover{
+				color:#3A539B;
+
+			}
 		</style>
-		<title>Biology</title>
+		<title>AP Biology: Movement and Defense</title>
 		<link rel="icon" href="flask.png">
 	</head>
 	<body>
 		<div class="navbar"></div>
 		<div class="next"><a href="#mollusca">V</a></div>
-		<div class="heading">Movement and Defense Across the Animal Kingdom</div>
+		<div class="heading">Movement and Defense Across the Animal Kingdom<div style="font-size:20px;"><br>By Julia Guo, Eton Victor, Brian Giordano, Daniel Santoro<br>Resch A4</div></div>
 		<div class="box">Divergent and convergent evolution has allowed different animals to move around and defend themselves in many ways. Let's take a look.</div>
 		<div id="mollusca"><b>Squid (Phylum Mollusca)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Siphon, arms, and head fins- siphon propels the squid through the water by pressing water from their pallial cavity through the siphon nozzle<br><b>Defense</b><br>- Jet of ink to confuse predator- in confusion they escape<br>- Squids often wrap their arms around predators in an effort to prevent themselves from getting eaten<br>- Have a robust beak made out of chitin<br>- Bilateral symmetry<br>- Some squids contain chromatophores in their skin. They use these to camouflage themselves and evade predators.<br>- Squids have muscles in their mantle and tentacles (muscular hydrostat) similar to human tongue</div>
+		</div>
+		<div class="pig"><b>Pig (Phylum Chordata, Class Mammalia)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Muscular system similar to most other mammals<br>- Striated skeletal muscles attach to an underlying skeleton- provides a framework for movement<br>- Smooth involuntary muscles control digestion and other internal processes<br>- Cardiac involuntary muscle- only found in the heart- controls heartbeat and function<br>- Bilateral symmetry<br><b>Defense</b><br>- Male pigs grow tusks used for offense<br>- Don't have particularly good eyesight- use sense of smell and hearing to detect possible threat.<br>- Uses subcutaneous fat for energy and insulation</div></div>
+		<div class="next1"><a href="#frog">V</a></div>
+		<div id="frog"><b>Frog (Phylum Chordata, Class Amphibia)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Bilateral symmetry<br>- Similar to pigs, frogs have a skeleton used as an underlying framework for striated muscles.<br>- Unlike the pig that uses lungs controlled by a diaphragm, frogs use a method of breathing known as buccal pumping<br>- The flow of oxygen is very important for frogs and pigs because they have muscles that require fresh oxygen for hemoglobin and myoglobin<br>- Frogs have very developed hind legs used for jumping, catching prey, and escaping predators. When compared to the pig, the proportion of muscular development between the legs of the two are quite startling<br>- Can walk, run, swim, dig, jump, not all frogs can do all of these motions however.<br><b>Defense</b><br>- Has fat bodies in the abdomen that store energy<br>- Uses camouflage<br>- Runs/leaps away easily<br>- Produces toxins from glands in its skin<br>- Plays dead<br>- Swells up to give the appearance of additional mass<br>- Bright colors to indicate danger to predators</div>
 </div>
-		<div class="annelida">Phylum Annelida</div>
 	</body>	
 	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
 	<script type="text/javascript" src="smooth.js"></script>
