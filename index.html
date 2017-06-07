@@ -84,7 +84,7 @@
 				position:absolute;
 				height:100%;
 				background:#87D37C;
-				color:#555;
+				color:#333;
 				width:50%;
 				border:1px solid #87D37C;
 				padding:20px;
@@ -100,7 +100,7 @@
 			#frog{
 				position:absolute;
 				height:100%;
-				color:#888;
+				color:#444;
 				background:#fff;
 				width:100%;
 				border:1px solid #fff;
@@ -117,7 +117,7 @@
 			#crayfish{
 				position:absolute;
 				height:100%;
-				color:#888;
+				color:#444;
 				background:#eee;
 				width:50%;
 				border:1px solid #eee;
@@ -185,7 +185,7 @@
 			#sponge{
 				position:absolute;
 				height:100%;
-				color:#444;
+				color:#111;
 				background:#E9D460;
 				width:100%;
 				border:1px solid #E9D460;
@@ -201,7 +201,7 @@
 
 			#cnidaria{
 				position:absolute;
-				height:200%;
+				height:100%;
 				color:#111;
 				background:#F89406;
 				width:100%;
@@ -210,6 +210,45 @@
 				box-sizing:border-box;
 				top:600%;
 				margin-left:0px;
+				font-size:42px;
+				font-family:Quicksand;
+				transition:all 0.5s ease;
+				-webkit-transition:all 0.5s ease;
+			}
+
+			#starfish{
+				position:absolute;
+				height:100%;
+				color:#444;
+				background:#fff;
+				width:50%;
+				border:1px solid #fff;
+				padding:20px;
+				box-sizing:border-box;
+				top:700%;
+				margin-left:0px;
+				font-size:42px;
+				font-family:Quicksand;
+				transition:all 0.5s ease;
+				-webkit-transition:all 0.5s ease;
+			}
+
+			.starfishimgs{
+				position:absolute;
+				right:20px;
+				margin-top:20px;
+			}
+			#cucumber{
+				position:absolute;
+				height:100%;
+				color:#111;
+				background:#86E2D5;
+				width:50%;
+				border:1px solid #86E2D5;
+				padding:20px;
+				box-sizing:border-box;
+				top:700%;
+				margin-left:50%;
 				font-size:42px;
 				font-family:Quicksand;
 				transition:all 0.5s ease;
@@ -226,7 +265,7 @@
 				z-index:9;
 			}
 
-			.next, .next1, .next2, .next3, .next4, .next5{
+			.next, .next1, .next2, .next3, .next4, .next5, .next6{
 				position:absolute;
 				bottom:0px;
 				width:100%;
@@ -256,6 +295,10 @@
 
 			.next5{
 				bottom:-500%;
+			}
+
+			.next6{
+				bottom:-600%;
 			}
 
 			a{
@@ -288,34 +331,40 @@
 		<div class="heading">Movement and Defense Across the Animal Kingdom<div style="font-size:20px;"><br>By Julia Guo, Eton Victor, Brian Giordano, Daniel Santoro<br>Resch A4</div></div>
 		<div class="box">Divergent and convergent evolution has allowed different animals to move around and defend themselves in many ways. Let's take a look.</div>
 
-		<div id="mollusca"><b>Squid (Phylum Mollusca)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Siphon, arms, and head fins- siphon propels the squid through the water by pressing water from their pallial cavity through the siphon nozzle<br><b>Defense</b><br>- Jet of ink to confuse predator- in confusion they escape<br>- Squids often wrap their arms around predators in an effort to prevent themselves from getting eaten<br>- Have a robust beak made out of chitin<br>- Bilateral symmetry<br>- Some squids contain chromatophores in their skin. They use these to camouflage themselves and evade predators.<br>- Squids have muscles in their mantle and tentacles (muscular hydrostat) similar to human tongue</div>
+		<div id="mollusca"><b>Squid (Phylum Mollusca)</b><div style="font-size:20px;"><b>Movement</b><br>- Siphon, arms, and head fins- siphon propels the squid through the water by pressing water from their pallial cavity through the siphon nozzle<br><b>Defense</b><br>- Jet of ink to confuse predator- in confusion they escape<br>- Squids often wrap their arms around predators in an effort to prevent themselves from getting eaten<br>- Have a robust beak made out of chitin<br>- Bilateral symmetry<br>- Some squids contain chromatophores in their skin. They use these to camouflage themselves and evade predators.<br>- Squids have muscles in their mantle and tentacles (muscular hydrostat) similar to human tongue</div>
 		</div>
 
-		<div class="pig"><b>Pig (Phylum Chordata, Class Mammalia)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Muscular system similar to most other mammals<br>- Striated skeletal muscles attach to an underlying skeleton- provides a framework for movement<br>- Smooth involuntary muscles control digestion and other internal processes<br>- Cardiac involuntary muscle- only found in the heart- controls heartbeat and function<br>- Bilateral symmetry<br><b>Defense</b><br>- Male pigs grow tusks used for offense<br>- Don't have particularly good eyesight- use sense of smell and hearing to detect possible threat.<br>- Uses subcutaneous fat for energy and insulation</div></div>
+		<div class="pig"><b>Pig (Phylum Chordata, Class Mammalia)</b><div style="font-size:20px;"><b>Movement</b><br>- Muscular system similar to most other mammals<br>- Striated skeletal muscles attach to an underlying skeleton- provides a framework for movement<br>- Smooth involuntary muscles control digestion and other internal processes<br>- Cardiac involuntary muscle- only found in the heart- controls heartbeat and function<br>- Bilateral symmetry<br><b>Defense</b><br>- Male pigs grow tusks used for offense<br>- Don't have particularly good eyesight- use sense of smell and hearing to detect possible threat.<br>- Uses subcutaneous fat for energy and insulation</div></div>
 
 		<div class="next1"><a href="#frog">V</a></div>
 
-		<div id="frog"><b>Frog (Phylum Chordata, Class Amphibia)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Bilateral symmetry<br>- Similar to pigs, frogs have a skeleton used as an underlying framework for striated muscles.<br>- Unlike the pig that uses lungs controlled by a diaphragm, frogs use a method of breathing known as buccal pumping<br>- The flow of oxygen is very important for frogs and pigs because they have muscles that require fresh oxygen for hemoglobin and myoglobin<br>- Frogs have very developed hind legs used for jumping, catching prey, and escaping predators. When compared to the pig, the proportion of muscular development between the legs of the two are quite startling<br>- Can walk, run, swim, dig, jump, not all frogs can do all of these motions however.<br><b>Defense</b><br>- Has fat bodies in the abdomen that store energy<br>- Uses camouflage<br>- Runs/leaps away easily<br>- Produces toxins from glands in its skin<br>- Plays dead<br>- Swells up to give the appearance of additional mass<br>- Bright colors to indicate danger to predators</div></div>
+		<div id="frog"><b>Frog (Phylum Chordata, Class Amphibia)</b><div style="font-size:20px;"><b>Movement</b><br>- Bilateral symmetry<br>- Similar to pigs, frogs have a skeleton used as an underlying framework for striated muscles.<br>- Unlike the pig that uses lungs controlled by a diaphragm, frogs use a method of breathing known as buccal pumping<br>- The flow of oxygen is very important for frogs and pigs because they have muscles that require fresh oxygen for hemoglobin and myoglobin<br>- Frogs have very developed hind legs used for jumping, catching prey, and escaping predators. When compared to the pig, the proportion of muscular development between the legs of the two are quite startling<br>- Can walk, run, swim, dig, jump, not all frogs can do all of these motions however.<br><b>Defense</b><br>- Has fat bodies in the abdomen that store energy<br>- Uses camouflage<br>- Runs/leaps away easily<br>- Produces toxins from glands in its skin<br>- Plays dead<br>- Swells up to give the appearance of additional mass<br>- Bright colors to indicate danger to predators</div></div>
 
 		<div class="next2"><a href="#crayfish">V</a></div>
 
-		<div id="crayfish"><b>Crayfish (Phylum Arthropoda)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Uses muscles for extension and flexion, similar to chordata<br>- Can walk on land or on the floor of bodies of water using legs<br>- Have small appendages known as swimmerets on the tail region<br><b>Defense</b><br>- Have spikes protruding from the forelimbs as a form of physical defense<br>- Uses tail as a rudder to propel itself backwards in the event of a predator approaching<br>- Forelimbs end in claws that can be used for hunting and defense<br>- Upon being threatened the crayfish raises its claws in the air and engages in a self defense stance, win which it menacingly flashes its claws<br>- Have a hard exoskeleton made of chitin, a structural polysaccharide</div></div>
+		<div id="crayfish"><b>Crayfish (Phylum Arthropoda)</b><div style="font-size:20px;"><b>Movement</b><br>- Uses muscles for extension and flexion, similar to chordata<br>- Can walk on land or on the floor of bodies of water using legs<br>- Have small appendages known as swimmerets on the tail region<br><b>Defense</b><br>- Have spikes protruding from the forelimbs as a form of physical defense<br>- Uses tail as a rudder to propel itself backwards in the event of a predator approaching<br>- Forelimbs end in claws that can be used for hunting and defense<br>- Upon being threatened the crayfish raises its claws in the air and engages in a self defense stance, win which it menacingly flashes its claws<br>- Have a hard exoskeleton made of chitin, a structural polysaccharide</div></div>
 		
-		<div class="grasshopper"><b>Grasshopper (Phylum Arthropoda)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Have wings capable of flight<br>- Primary locomotion is jumping using the powerful hind legs<div style="margin-left:25px;">- Jump to escape from predators<br>     - Propel themselves in the air in preparation of flight<br>     - General locomotion<br></div>- The hind legs of the grasshopper are highly specialized and comparable to the frogs in the sense that they are highly enlarged for the particular purpose of jumping<br>- Legs are powered by a series of muscles<br><b>Defense</b><br>- Camouflage with grassy environments<br>- Do not confront enemies, primarily to to escape<br>- Have small chitin spikes on the rear legs to make them slightly more difficult to eat</div></div>
+		<div class="grasshopper"><b>Grasshopper (Phylum Arthropoda)</b><div style="font-size:20px;"><b>Movement</b><br>- Have wings capable of flight<br>- Primary locomotion is jumping using the powerful hind legs<div style="margin-left:25px;">- Jump to escape from predators<br>     - Propel themselves in the air in preparation of flight<br>     - General locomotion<br></div>- The hind legs of the grasshopper are highly specialized and comparable to the frogs in the sense that they are highly enlarged for the particular purpose of jumping<br>- Legs are powered by a series of muscles<br><b>Defense</b><br>- Camouflage with grassy environments<br>- Do not confront enemies, primarily to to escape<br>- Have small chitin spikes on the rear legs to make them slightly more difficult to eat</div></div>
 
 		<div class="next3"><a href="#earthworm">V</a></div>
 
-		<div id="earthworm"><b>Earthworm (Phylum Annelida)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Flexible segmented body propelled by a series of muscles<br>- Muscles run lengthwise and around the circumference<br>- Some worms have appendages (leg like, tentacle like, etc…)<br>- Some worms are able to use their powerful muscles to swim, and ungulate through the water<br><b>Defense</b><br>- Uses sense of sight to detect possible danger<br>- Whether in the ocean, or on land, worms can dig into the ground to escape from predators (primary means of defence is fleeing)<br>- Some worms construct permanent tubes in which they live in.<br>- These homes act similar to a turtle's shell, for the animal lives in it, but also seeks refuge from predators within these homes.</div></div>
+		<div id="earthworm"><b>Earthworm (Phylum Annelida)</b><div style="font-size:20px;"><b>Movement</b><br>- Flexible segmented body propelled by a series of muscles<br>- Muscles run lengthwise and around the circumference<br>- Some worms have appendages (leg like, tentacle like, etc…)<br>- Some worms are able to use their powerful muscles to swim, and ungulate through the water<br><b>Defense</b><br>- Uses sense of sight to detect possible danger<br>- Whether in the ocean, or on land, worms can dig into the ground to escape from predators (primary means of defence is fleeing)<br>- Some worms construct permanent tubes in which they live in.<br>- These homes act similar to a turtle's shell, for the animal lives in it, but also seeks refuge from predators within these homes.</div></div>
 
-		<div class="roundworm"><b>Roundworm (Phylum Nematoda)</b><div style="font-size:20px;"><br><b>Movement</b><br>- Move using a combination of longitudinal muscles and internal pressure<br>- Since they only have muscles that move in one direction, they cannot crawl, only thrash.<br><b>Defense</b><br>- Because they are mostly parasitic nematodes do not necessarily need physical defenses for other animals, instead they have a variety of chemical defenses that prevent the host's immune system from killing them.<br>- Also have chemical defenses for non immune based microbial attacks</div></div>
+		<div class="roundworm"><b>Roundworm (Phylum Nematoda)</b><div style="font-size:20px;"><b>Movement</b><br>- Move using a combination of longitudinal muscles and internal pressure<br>- Since they only have muscles that move in one direction, they cannot crawl, only thrash.<br><b>Defense</b><br>- Because they are mostly parasitic nematodes do not necessarily need physical defenses for other animals, instead they have a variety of chemical defenses that prevent the host's immune system from killing them.<br>- Also have chemical defenses for non immune based microbial attacks</div></div>
 
 		<div class="next4"><a href="#sponge">V</a></div>
 
-		<div id="sponge"><b>Sponges (Phylum Porifera)</b><div style="font-size:20px;"><br>- Believed to be one of the first animals of earth that all started with cells creating a language to communicate with each other<br>- Many different species of Sponges that thrive in many different climates<br>- One of the first sexual reproductive animals all made possible by the choanocytes<br><b>Movement</b><br>- No muscles<br>- Very little movement<br>- Choanocytes- “hearts” found in the sponge<br><div style="margin-left:25px;">- Whip like tails power the pump of molecules throughout the labyrinth of canals within the sponge</div><b>Defense</b><br>- No nerves or nervous system<br>- Unique cell communication (even when separated they can find their way back to each others and start growing new sponges<br>- Cells are held together by collagen which help support the body (Soft)<div style="margin-left:25px;">- Spicules make a sponge have a unique forms as well as spiky like body</div>- Walls can engulf prey</div></div>
+		<div id="sponge"><b>Sponges (Phylum Porifera)</b><div style="font-size:20px;">- Believed to be one of the first animals of earth that all started with cells creating a language to communicate with each other<br>- Many different species of Sponges that thrive in many different climates<br>- One of the first sexual reproductive animals all made possible by the choanocytes<br><b>Movement</b><br>- No muscles<br>- Very little movement<br>- Choanocytes- “hearts” found in the sponge<br><div style="margin-left:25px;">- Whip like tails power the pump of molecules throughout the labyrinth of canals within the sponge</div><b>Defense</b><br>- No nerves or nervous system<br>- Unique cell communication (even when separated they can find their way back to each others and start growing new sponges<br>- Cells are held together by collagen which help support the body (Soft)<div style="margin-left:25px;">- Spicules make a sponge have a unique forms as well as spiky like body</div>- Walls can engulf prey</div></div>
 
 		<div class="next5"><a href="#cnidaria">V</a></div>
 
-		<div id="cnidaria"><b>Phylum Cnidaria (jellyfish, hydras, corals, sea anemones)</b><div style="font-size:20px;"><br>- First animals to have muscles and nerves to produce behavior<br>- Believed to evolved from sponge (One of the first complex animals)<br>- Coral reefs occur when anemones and other cnidarians work together to grow and don’t fight each other for space<br><b>Movement</b><br>- Sensitive tentacles that reach out and receive<br>- Two sets of muscles<div style="margin-left:25px;">- Bend in any direction</div>- Depend on nerves to know which way to bend (Best pose to snag food based on current of water)<br>- Can free itself from rock start to swim (looks like flopping)<br>- Medusa has a pump like motion<br>- Jelly squeeze the upper portion of body pushing water and propelling them with a jet type force (Jet of water not like the force of a jet)<br><b>Defense</b><br>- Sensitive tentacle<div style="margin-left:25px;">- Nematocyst- tiny capsules filled with toxins that are pumped out and into prey<br>- Must be touched before toxin is discharged<br>- Some toxins can be fatal to even humans and can used against own kind</div>- Inflate sacs for combat<div style="margin-left:25px;">- Many weapons<br>- Must touch enemy<br>- Used to hold their ground<br>- These battles can last for hours or days<br>- Winner stays, loser eventually moves away</div>- Can swim away from predator if need be<br>- Detach tentacles as decoys of potential attackers</div></div>
+		<div id="cnidaria"><b>Phylum Cnidaria (jellyfish, hydras, corals, sea anemones)</b><div style="font-size:18px;">- First animals to have muscles and nerves to produce behavior<br>- Believed to evolved from sponge (One of the first complex animals)<br>- Coral reefs occur when anemones and other cnidarians work together to grow and don’t fight each other for space<br><b>Movement</b><br>- Sensitive tentacles that reach out and receive<br>- Two sets of muscles<div style="margin-left:25px;">- Bend in any direction</div>- Depend on nerves to know which way to bend (Best pose to snag food based on current of water)<br>- Can free itself from rock start to swim (looks like flopping)<br>- Medusa has a pump like motion<br>- Jelly squeeze the upper portion of body pushing water and propelling them with a jet type force (Jet of water not like the force of a jet)<br><b>Defense</b><br>- Sensitive tentacle<div style="margin-left:25px;">- Nematocyst- tiny capsules filled with toxins that are pumped out and into prey<br>- Must be touched before toxin is discharged<br>- Some toxins can be fatal to even humans and can used against own kind</div>- Inflate sacs for combat<div style="margin-left:25px;">- Many weapons<br>- Must touch enemy<br>- Used to hold their ground<br>- These battles can last for hours or days<br>- Winner stays, loser eventually moves away</div>- Can swim away from predator if need be<br>- Detach tentacles as decoys of potential attackers</div></div>
+
+		<div class="next6"><a href="#starfish">V</a></div>
+
+		<div id="starfish"><b>Starfish (Phylum Echinodermata)</b><div class="starfishimgs"><img src="star.png" width=200px></div><div style="font-size:20px; margin-right:250px;">- Five part symmetry common to all echinoderms<br><b>Movement</b><br>- Body is made of a skeleton of thousands of tiny, bony, plates. Stitched together by equally as small muscles<br>- Thousands of tiny tube feet (hydraulic)<br>- Water goes in through sieve plate and travels down radial canals. Stored in muscular pouches<br><b>Defense</b><br>- Rough skin makes them unpleasant for predators to eat<br>- Moves stomach out of body to digest prey alive<br>- Can produce unpleasant mucus<br>- Can produce toxins on the skin that taste bad, and are bad for predators</div></div>
+
+		<div id="cucumber"><b>Sea Cucumber (Phylum Echinodermata)</b><div style="font-size:20px;">- A variation on the token five part symmetry<br><b>Movement</b><br>- Tube feet common to echinoderm (hydraulic)<br>- Have muscles for some movement of the body<br>- Most species have very tiny plates of calcium carbonate embedded in the skin (Aka cannot be seen)<br><b>Defense</b><br>- Vomits sticky and gross internal tubes / and or digestive system onto predators<br>- Produces clouds of toxins in water around the body<br><br><img src="guts.PNG" width=300px></div></div>
 </div>
 	</body>	
 	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
