@@ -74,6 +74,7 @@
 				background:#fff;
 				width:100%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:100%;
 				margin-left:0px;
@@ -91,6 +92,7 @@
 				color:#fff;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:200%;
 				margin-left:0px;
@@ -108,6 +110,7 @@
 				color:#333;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:200%;
 				margin-left:50%;
@@ -125,6 +128,7 @@
 				background:#fff;
 				width:100%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:300%;
 				margin-left:0px;
@@ -142,6 +146,7 @@
 				background:#eee;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:400%;
 				margin-left:0px;
@@ -159,6 +164,7 @@
 				background:#913D88;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:400%;
 				left:50%;
@@ -176,6 +182,7 @@
 				background:#3498DB;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:500%;
 				margin-left:0px;
@@ -193,6 +200,7 @@
 				background:#26C281;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:500%;
 				margin-left:50%;
@@ -210,6 +218,7 @@
 				background:#fff;
 				width:100%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:600%;
 				margin-left:0px;
@@ -227,6 +236,7 @@
 				background:#E9D460;
 				width:100%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:700%;
 				margin-left:0px;
@@ -248,6 +258,7 @@
 				background:#F89406;
 				width:100%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:800%;
 				margin-left:0px;
@@ -265,6 +276,7 @@
 				background:#fff;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:900%;
 				margin-left:0px;
@@ -296,6 +308,7 @@
 				background:#86E2D5;
 				width:50%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:900%;
 				margin-left:50%;
@@ -313,6 +326,7 @@
 				background:#fff;
 				width:100%;
 				padding:20px;
+				padding-top:50px;
 				box-sizing:border-box;
 				top:1000%;
 				margin-left:0px;
@@ -323,14 +337,37 @@
 				overflow:auto;
 			}
 
+			.footer{
+				position:relative;
+				color:#3A539B;
+				font-size:20px;
+			}
+
 			.navbar{
 				width:100%;
-				height:30px;
+				height:40px;
 				background:#3A539B;
-				position:absolute;
+				position:fixed;
 				margin-left:0px;
 				margin-top:0px;
-				z-index:9;
+				z-index:9999;
+				box-sizing: border-box;
+				padding:10px;
+				font-family:Quicksand;
+				color:#fff;
+			}
+
+			.navbar a{
+				display:inline block;
+				margin:5px;
+				border:1px solid #fff;
+				padding:3px;
+				border-radius:5px;
+			}
+
+			.navbar a:hover{
+				background:#fff;
+				color:#3A539B;
 			}
 
 			.next, .next0, .next1, .next2, .next3, .next4, .next5, .next6, .next35, .next7{
@@ -421,7 +458,7 @@
 		<link rel="icon" href="flask.png">
 	</head>
 	<body>
-		<div class="navbar"></div>
+		<div class="navbar">Jump to a section: <a href="#tree">Phylogenetic Tree</a><a href="#mollusca">Mollusca</a><a href="#mollusca">Chordata</a><a href="#crayfish">Arthropoda</a><a href="#earthworm">Annelida</a><a href="#earthworm">Nematoda</a><a href="#flatworm">Platyhelminthes</a><a href="#sponge">Porifera</a><a href="#cnidaria">Cnidaria</a><a href="#starfish">Echinodermata</a><a href="#wc">WC</a></div>
 		<div class="next"><a href="#tree">click to scroll<br>▼</a></div>
 		<div class="heading">Movement and Defense Across the Animal Kingdom<div style="font-size:20px;"><br>By Julia Guo, Eton Victor, Daniel Santoro, Brian Giordano<br>Resch A4<br><br>**Click the triangles to scroll between phyla. To read more about a certain individual phylum, use the scrollbar within the section.</div></div>
 		<div class="box">Divergent and convergent evolution has allowed different animals to move around and defend themselves in many ways. Let's take a look.<br><div style="margin-top:10px;width:100%;height:100px;background-image:url(paws.png);background-size:contain;box-sizing: border-box;overflow:hidden;opacity:0.6;"></div></div>
@@ -444,7 +481,7 @@
 		<div id="mollusca"><b>Squid / Phylum Mollusca</b><div style="font-size:16px;">Mollusks are soft-bodied animals with an outer mantle/shell layer. They make up nearly a quarter of marine life, and are very diverse. Squids exemplify many mollusk properties well.<br><b>Movement</b><br>The squid mainly uses its siphon, tentacles, and head fins to move. Its siphon propels the squid through the water by pressing water from the pallial cavity through the siphon nozzle.[1] Many other ocean mollusks, such as the octopus, move similarly; land mollusks such as snails, drag themselves around slowly using a foot [2]. Other mollusks are sedentary.<br><b>Defense</b><br>The squid's main defense is to jet our a cloud of ink to confuse predators and easily escape. They also often wrap their arms around predators in an effort to prevent themselves from getting eaten. Physiology-wise, they have a robust beak made out of chitin for defense, bilateral symmetry for faster movement and easier escaping, and chromatophores in their skin for camouflage (only some squids have this). Interestingly, squids have muscles in their mantle and tentacles (muscular hydrostat) similar to human tongue [3].<br><br>1. Friedberg, Lionel. "Cnidarians: Life on the Move." The Shape of Life | The Story of the Animal Kingdom. PBS, 17 May 2016. Web. 11 June 2017.<br>2. Wilbur, Karl M.; Trueman, E.R.; Clarke, M.R., eds. (1985), <i>The Mollusca</i>, 11. Form and Function, New York: Academic Press, ISBN 0-12-728702-7<br>3. Ruppert, E.E.; Fox, R.S. & Barnes, R.D. (2004). "Mollusca". <i>Invertebrate Zoology</i> (7th ed.). Brooks / Cole. pp. 290–291. ISBN 0030259827.<br><center><img src="mollusc abstract.png"><br><img src="mussel soft parts.png" height=250px><img src="siphon opening.png" height=270px><img src="squid fins.png" height=250px></center></div>
 		</div>
 
-		<div class="pig"><b>Frog / Phylum Chordata, Class Amphibia</b><div style="font-size:16px;">Frogs and other chordates are decently complex when compared to other phylum on the list. Like previously mentioned animals, they all have a list of common features between members of the phylum. These features include bilateral symmetry, and a central spine from which nerve signals are transferred [1].<br><b>Movement</b><br>Like other chordates, frogs have a complex muscular system mounted onto a rigid, yet articulate, skeletal system. The muscles of frogs require oxygen transfer for movement to be achieved. The frog's solution to this problem is known as buccal pumping, a method in which the nostrils, buccal cavity, lungs, and glottis, all move in a four step cycle: two steps for inspiration, and two steps for expiration.<br>The primary means of locomotion for the frog is combination of walking, and jumping, primarily using the hind legs. When compared to the forelimbs, the muscular development and complexity of the hind legs is quite staggering. When one considers Chordata as a whole, its members all have muscles and a skeletal system which are used in different ways. For instance, birds fly using powerful wings; humans walk using muscular, big-boned hind legs; fish swim in water, assisted by fins for movement and gills for respiration.<br><b>Defense</b><br>Frogs, and chordates, have a variety of interesting means of defense. The frog used for the dissection exhibits a few of these defenses such as camouflage observed in its interesting skin patterns [2]. Some more specialized frogs and toads have the ability to secrete toxins from glands embedded in the skin. A very notable individual with such an ability is the Cane Toad. Some frogs have the ability to play dead and inflate their bodies to give the appearance of decomposition. Lastly many frogs, especially more tropical species, have bright colors to indicate danger to potential predators. The defense mechanisms of frogs that were just listed can also apply to other chordates: birds, lizards, mammals, etc. Additionally, the ectoderm or skin that is present in most chordates provides a basic mechanism of defense from the surroundings.<br><br>1. "Morphology of the Vertebrates". University of California Museum of Paleontology. Retrieved 2017-06-10.<br>2. "Frog and Toad Behavior and Life History - Movement, Camouflage, and Clustering." Frog and Toad Behavior and Life History - Movement, Camouflage, and Clustering. California Herps, n.d. Web. 13 June 2017.<center><br><br><img src="chordata abstraction 1.png"><img src="chordata abstraction 2.png"><img src="chordata abstraction 3.png"><br><img src="frog 1.png" height=250px><img src="frog 2.png" height=250px><img src="frog 3.png" height=250px></div></div></center>
+		<div class="pig"><b>Frog / Phylum Chordata, Class Amphibia</b><div style="font-size:16px;">Frogs and other chordates are decently complex when compared to other phylum on the list. Like previously mentioned animals, they all have a list of common features between members of the phylum. These features include bilateral symmetry, and a central spine from which nerve signals are transferred [1].<br><b>Movement</b><br>Like other chordates, frogs have a complex muscular system mounted onto a rigid, yet articulate, skeletal system. The muscles of frogs require oxygen transfer for movement to be achieved. The frog's solution to this problem is known as buccal pumping, a method in which the nostrils, buccal cavity, lungs, and glottis, all move in a four step cycle: two steps for inspiration, and two steps for expiration.<br>The primary means of locomotion for the frog is combination of walking, and jumping, primarily using the hind legs. When compared to the forelimbs, the muscular development and complexity of the hind legs is quite staggering.<br>When one considers Chordata as a whole, a commonality that is observed is that its members all have muscles and a skeletal system which are used in different ways. For instance, birds fly using powerful wings; humans walk using muscular, big-boned hind legs; fish swim in water, assisted by fins for movement and gills for respiration.<br><b>Defense</b><br>Frogs, and chordates, have a variety of interesting means of defense. The frog used for the dissection exhibits a few of these defenses such as camouflage observed in its interesting skin patterns [2]. Some more specialized frogs and toads have the ability to secrete toxins from glands embedded in the skin. A very notable individual with such an ability is the Cane Toad. Some frogs have the ability to play dead and inflate their bodies to give the appearance of decomposition. Lastly many frogs, especially more tropical species, have bright colors to indicate danger to potential predators. The defense mechanisms of frogs that were just listed can also apply to other chordates: birds, lizards, mammals, etc. Some predatory chordates possess structures such as claws and sharp teeth that also help them defend themselves. Finally, the ectoderm or skin that is present in most chordates provides a basic mechanism of defense from the surroundings.<br><br>1. "Morphology of the Vertebrates". University of California Museum of Paleontology. Retrieved 2017-06-10.<br>2. "Frog and Toad Behavior and Life History - Movement, Camouflage, and Clustering." Frog and Toad Behavior and Life History - Movement, Camouflage, and Clustering. California Herps, n.d. Web. 13 June 2017.<center><br><br><img src="chordata abstraction 1.png"><img src="chordata abstraction 2.png"><img src="chordata abstraction 3.png"><br><img src="frog 1.png" height=250px><img src="frog 2.png" height=250px><img src="frog 3.png" height=250px></div></div></center>
 
 		<div class="next1"><a href="#frog">▼</a></div>
 
@@ -482,7 +519,8 @@
 		<div id="cucumber"><b>Sea Cucumber / Phylum Echinodermata cont.</b><div style="font-size:16px;">Sea cucumbers have a variation on the token five part symmetry of echinoderms.<br><b>Movement</b><br>Like starfish and other echinoderms, sea cucumbers also have hydraulic tube feet. Though most echinoderms have these, sea urchins have spines and use those to move instead. Sea cucumbers also have muscles for some movement of the body. [1] They are generally sluggish animals, though.<br><b>Defense</b><br>Sea cucumbers and other echinoderms are made up of calcite and calcium carbonate, which renders them indigestible by many organisms. Behavioral mechanisms of defense specific to the sea cucumber include vomiting internal tubules and/or its digestive system onto predators. Like other echinoderms, it can also produces clouds of toxins in water around the body. The release of toxins that is so common amongst animals is evidence of divergent evolution. [2]<br><br>1. Miller, John E., and David Leo Pawson. "Echinoderm." Encyclopædia Britannica. Encyclopædia Britannica, Inc., n.d. Web. 13 June 2017.<br>2. "Echinoderms." Echinoderms. MESA, n.d. Web. 13 June 2017<br><br><img src="guts.PNG" width=300px></div></div>
 		<div class="next7"><a href="#wc"><br>▼</a></div>
 
-		<div id="wc"><center><i>Thanks for reading!</i><br><img src="works cited.jpg" width=50%><img src="works cited 2.jpg" width=50%></div></center>
+		<div id="wc"><center><i>Thanks for reading!</i><br><img src="works cited.jpg" width=50%><img src="works cited 2.jpg" width=50%><div class="footer">This website was designed and coded by Julia Guo. 2017.</div></div></center>
+		
 </div>
 	</body>	
 	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
